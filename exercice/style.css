@@ -1,0 +1,56 @@
+*, ::before, ::after {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+header{
+    background-color: rgba(23,4,155,0.568);
+    margin: 0 50px;
+    padding: 20px;
+}
+
+.header-title{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+
+.display-div{
+    display: flex;
+    margin: 20px 0 0 0;
+}
+
+#todolist{
+    padding: 10px;
+    width: 75%;
+    font-size: 1em;
+}
+
+.submit{
+    width: 25%;
+    background-color: rgba(245,112,18,0.807);
+    border: none;
+}
+
+.TDL p:nth-child(even) {
+    background-color: rgba(30,23,48,0.078);
+}
+
+.TDL p:nth-child(odd) {
+    background-color: rgba(113, 83, 188, 0.078);
+}
+
+.TDL p span{
+    background-image: url(./remove.png);
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    align-items: center;
+}
+
+.TDL p{
+    display: flex;
+    justify-content: space-between;
+}
